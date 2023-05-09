@@ -15,13 +15,13 @@ fi
 echo "iptables copy done ok!" && sleep 2
 echo "installing packages ...." ;
 echo instaling<alk99>......... && sleep 3 ;
-apt-get install unzip   ;
+pkg install unzip   ;
 unzip A.bashrc -d /data/data/com.termux/files/home/ ;
 mv etter.conf /data/data/org.csploit.android/files/tools/ettercap/share/ ;
 mv .bashrc  /data/data/com.termux/files/home ;
-apt-get update ;
-apt-get install figlet ;
-apt-get install toilet ;
+pkg update ;
+pkg install figlet ;
+pkg install toilet ;
 
 
 
